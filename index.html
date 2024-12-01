@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Changing App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="square">
+        <div id="cir" class="circle"></div>
+      </div>
+      <div class="btn">
+        <span><button onclick="handleRed()">Red</button></span>
+        <span><button onclick="handleSquare()">Square</button></span>
+        <span><button onclick="handleBlue()">Blue</button></span>
+        <span><button onclick="handleRectangle()">Rectangle</button></span>
+        <span><button onclick="handleGreen()">Green</button></span>
+        <span><button onclick="handleTraingle()">Oval</button></span>
+        <span><button onclick="handleReset()">Reset</button></span>
+      </div>
+      <div class="inp">
+        <label for="color"></label>
+        <input
+          type="text"
+          id="color"
+          name="color"
+          placeholder="Type Your Color"
+          class="input"
+          onchange="handleColor()"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
