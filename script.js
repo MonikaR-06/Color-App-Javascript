@@ -13,6 +13,8 @@ const handleGreen = () => {
 const handleReset = () => {
     document.getElementById("cir").style.backgroundColor = "white"
     document.getElementById("cir").style.borderRadius = "50%"
+    document.getElementById("cir").style.height = "350px"
+    document.getElementById("cir").style.width = "350px"
 }
 
 const handleColor = () => {
